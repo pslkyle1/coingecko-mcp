@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node ./node_modules/@coingecko/coingecko-mcp/index.js"
-  },
+  "start": "node ./node_modules/@coingecko/coingecko-mcp/index.js --http 0.0.0.0:3000"  },
   "keywords": [],
   "author": "",
   "license": "ISC",
