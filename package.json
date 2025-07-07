@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/@coingecko/coingecko-mcp/index.js --http 0.0.0.0:$PORT"
-  },
+"start": "cross-env-shell \"node ./node_modules/@coingecko/coingecko-mcp/index.js --http 0.0.0.0:$PORT\""  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@coingecko/coingecko-mcp": "^1.7.3"
+    "@coingecko/coingecko-mcp": "^1.7.3",
+    "cross-env": "^7.0.3"
   },
   "engines": {
     "node": "20"
