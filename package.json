@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/@coingecko/coingecko-mcp/cli.js --http 0.0.0.0:10000"
+  "start": "node ./node_modules/@coingecko/coingecko-mcp/index.js"
   },
   "keywords": [],
   "author": "",
