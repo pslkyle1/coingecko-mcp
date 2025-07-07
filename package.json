@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-"start": "cross-env-shell \"node ./node_modules/@coingecko/coingecko-mcp/index.js --http 0.0.0.0:$PORT\""  },
+"start": "cross-env node ./node_modules/@coingecko/coingecko-mcp/index.js --http 0.0.0.0:$PORT"},
   "keywords": [],
   "author": "",
   "license": "ISC",
